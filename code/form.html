@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ibra crypto Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>XYZ COMPANY</h1>
+        <div class="form">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount...">
+            <label for="from">From:</label>
+            <select id="from">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="Rwf">Rwf</option>
+            </select>
+            <label for="to">To:</label>
+            <select id="to">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="Rwf">Rwf</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+        </div>
+        <div class="result">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
